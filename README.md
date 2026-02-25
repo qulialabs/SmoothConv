@@ -91,9 +91,7 @@ For more details: https://creativecommons.org/licenses/by/4.0/
 
 If you use SmoothConv in your research, please cite:
 
-@misc{smoothconv2025,
-  title={SmoothConv: Dual-Channel Dataset for Smooth Human–AI Conversational Interaction},
-  year={2025}
+@misc{smoothconv,
+  author = {qulialabs}，title={SmoothConv: Datasets for Smooth Human–AI Conversational Interaction},
+  year={2025},publisher = {GitHub},journal = {GitHub repository},howpublished = {https://github.com/qulialabs-ethan/SmoothConv},email = {developer@qulialabs.ai}
 }
-
-(Full citation details will be updated upon paper publication.)
