@@ -1,21 +1,60 @@
 # SmoothConv
 
-SmoothConv is a research initiative dedicated to advancing natural and smooth human–AI conversational interaction.
+SmoothConv is a research initiative focused on advancing natural and smooth human–AI conversational interaction.
 
-Our initial public release provides a curated and annotated dataset designed for modeling conversational turn-taking and interaction flow. This dataset aims to support research on dialogue timing, response coordination, and adaptive conversational behavior.
+Our initial release introduces a high-quality, dual-channel dataset of real human–human conversations, designed specifically for modeling conversational turn-taking and interaction flow.
+
+Unlike many existing resources that rely on single-channel recordings or scripted dialogues, SmoothConv provides:
+
+- Dual-channel recordings capturing both speakers independently  
+- Naturally occurring, unscripted conversations  
+- Precise conversational structure preserved in timing and overlap  
+
+This enables fine-grained research on turn-taking, interruption modeling, response timing, and interaction dynamics.
 
 ---
 
-## 🚀 Initial Release
+## 🚀 What Makes SmoothConv Different
+
+### 1. Real Dual-Channel Conversations
+
+Most publicly available conversational datasets are:
+
+- Single-channel mixed audio  
+- Scripted or read dialogues  
+- Artificially constructed conversational scenarios  
+
+SmoothConv instead offers:
+
+- True dual-channel recordings (separate speaker tracks)  
+- Naturally occurring conversations  
+- Authentic interaction timing and overlap patterns  
+
+This makes it particularly suitable for modeling conversational flow and real-world dialogue coordination.
+
+---
+
+### 2. Human-Curated Fine-Grained Annotations
+
+All data in the initial release is manually annotated with high precision, including:
+
+- Speaker IDs  
+- Accurate timestamps  
+- Turn segmentation  
+- Paralinguistic signals (e.g., pauses, overlaps, backchannels)  
+
+The dataset is designed for reproducible research and structured modeling of interaction dynamics.
+
+---
+
+## 📦 Initial Release
 
 The first public release includes:
 
-- A labeled dataset for conversational turn-taking  
+- Annotated dual-channel conversational audio  
 - Structured metadata for reproducible training  
-- Annotation schema and documentation  
-- Standard data splits for experimentation  
-
-This release focuses on enabling reproducible research in conversational flow modeling.
+- Detailed annotation schema and documentation  
+- Standard experimental splits  
 
 ---
 
@@ -24,7 +63,7 @@ This release focuses on enabling reproducible research in conversational flow mo
 SmoothConv will progressively expand to include:
 
 - Larger-scale conversational datasets  
-- Extended side annotations (e.g., timing signals, interaction cues)  
+- Richer side annotations and interaction cues  
 - Benchmark tasks for interaction modeling  
 - Baseline and reference models  
 
@@ -52,7 +91,9 @@ For more details: https://creativecommons.org/licenses/by/4.0/
 
 If you use SmoothConv in your research, please cite:
 
-@misc{smoothconv,
-  author = {qulialabs}，title={SmoothConv: Datasets for Smooth Human–AI Conversational Interaction},
-  year={2025},publisher = {GitHub},journal = {GitHub repository},howpublished = {https://github.com/qulialabs-ethan/SmoothConv},email = {developer@qulialabs.ai}
+@misc{smoothconv2025,
+  title={SmoothConv: Dual-Channel Dataset for Smooth Human–AI Conversational Interaction},
+  year={2025}
 }
+
+(Full citation details will be updated upon paper publication.)
